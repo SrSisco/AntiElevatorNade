@@ -1,6 +1,4 @@
-﻿
-
-namespace AntiElevatorNade
+﻿namespace AntiElevatorNade
 {
     using Exiled.API.Features;
     using System;
@@ -9,9 +7,9 @@ namespace AntiElevatorNade
     {
         private EventHandlers EventHandler;
         public override string Name => "AntiElevatorNade";
-        public override string Author => "SrSisco#2995";
-        public override Version Version => new Version(1, 0, 0);
-        public override Version RequiredExiledVersion => new Version(5, 0, 0);
+        public override string Author => "SrSisco";
+        public override Version Version => new Version(1, 1, 0);
+        public override Version RequiredExiledVersion => new Version(8, 6, 0);
 
         public override void OnEnabled()
         {

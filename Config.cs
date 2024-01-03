@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +11,7 @@ namespace AntiElevatorNade
 
     public class Config : IConfig
     {
+        public bool Debug { get; set; } = true;
         [Description("Enable or disable the plugin.")]
         public bool IsEnabled { get; set; } = true;
 
